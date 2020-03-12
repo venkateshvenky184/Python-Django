@@ -1,0 +1,376 @@
+  .background{
+    background-color: #f2f6ff;
+  }
+  body {
+    height: 120vh;
+    background-color: #f2f6ff;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  header {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow:  #ccc;
+    width: 100%;
+    z-index: 1;
+    padding: 1em 4.875em;
+  }
+  header * {
+    display: inline;
+  }
+
+  header li {
+  margin: 20px;
+  }
+
+   header li a {
+   color:  #0084ff;
+   text-decoration: none;
+   font-size: 2em;
+   margin-top: 8px;
+  width: 120px;
+  font-weight:900px;
+  }
+
+
+.dropbtn {
+  background-color: #f9f9f9;
+  color: blavk;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left:40px;
+  margin-top:10px;
+  width:100%;
+  box-sizing: border-box;
+  border-bottom: 4px solid transparent;
+}
+
+.dropbtn  i{
+  padding-left :4px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px;  
+  z-index:1;
+}
+
+.dropdown-content a {
+  display:flex;
+  color:  black;
+  text-decoration: none;
+  display: block;
+  margin-left:80px;
+  text-align:left;
+  min-width: 250px;
+  max-height: 335px;
+  font-size: 16px;
+  line-height: 1em;
+  padding: .5em;
+  box-sizing: border-box;
+  width:200px;
+  clear:both;
+  margin-left:3.5px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left:40px;
+  text-align:left;
+ 
+}
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+.right-menu{
+ margin-top: auto;
+ padding-left:200px ;
+ display:inline-block;
+ flex-direction:row-column;
+ align-items:center;
+ margin-bottom:20px; 
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+ 
+.blog{
+  min-width: 23em;
+  opacity: .6;
+  font-family: Raleway,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: .4px;
+  text-align: left;
+  color: rgba(0,0,0,.6);
+  margin-top: .5em;
+  display:inline-block;
+  margin-left:400px;
+  margin:0px;
+}
+.button{
+ width: auto;
+ font-size: 0.75em;
+ padding: 0.5em 2em;
+ padding: 0.5em 2em;
+ margin: 0px 1em 0px 0px;
+ background: #0084ff;
+ box-sizing: border-box;
+ border: none;
+ cursor: pointer;
+ border-radius:20px;
+ height:40px;
+}
+
+.blog-card{
+    display:inline-block;
+    width: 700px;
+    height:auto;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin: 100px 300px;
+    background-color:white;
+}
+
+.blog-thumbnail{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+} 
+.blog-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin: 20px 60px;
+}  
+.blog-description{
+    padding: 0px 16px;
+    font-size: 12pt;
+    margin: 10px 50px;
+    font-family: 'Arial';
+    color: black;
+    line-height: normal;
+    margin-bottom:1.5em;
+    text-align: justify;
+    
+}
+.blog-card-publishdate{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+}
+.blog-card-author{
+    font-size: .9em;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 0.5;
+    color: #0096ff;
+    padding-top: 10px;
+    padding-left:60px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.blog-author-pic{
+    padding: 2em 6em;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 4px;
+
+}
+.author-data{
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0096ff;
+    margin: 0;
+}
+.author-desc{
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    margin: .3em 0 0;
+}
+.blog-author-details{
+    display:flex;
+    text-align:left;
+}
+
+
+.blog-container{
+  padding: 30px 150px;
+  background-color: #f2f6ff;
+  margin-top: 60px;
+}
+
+.trending_posts{
+  font-family: Raleway,sans-serif;
+  color: black;
+  font-size: 36px;
+  font-style: bold;
+  font-weight: 600;
+  display: block;
+  margin: 14px 0px;
+  padding-left: 5px;
+  letter-spacing: -.9px;
+  text-align: left;
+}
+
+.filter_icon{
+  margin-right: 16px;
+  width: 16px;
+
+}
+
+.filter-by{
+  display: block;
+  padding-top: 16px;
+  padding-left:  5.2px;
+  margin: 13.6px 0px;
+  font-family: Raleway,sans-serif;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -.9px;
+  text-align: left;
+}
+
+.category_buttons_all{
+  border: 2px solid;
+  padding: 6px 16px;
+  margin: 5px;
+  font-family: Raleway,sans-serif;
+  font: 12px;
+  background-color: #0084ff;
+  color: white;
+  border: 1px solid #0084ff;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+
+.category_buttons{
+  border: 2px solid;
+  padding: 6px 16px;
+  margin: 5px;
+  font-family: Raleway,sans-serif;
+  font: 12px;
+  background-color: transparent;
+  color: #0084ff;
+  border: 1px solid #0084ff;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+.blog-card-front{
+  width: 300px;
+  margin: 16px;
+  border: 1px solid #0096ff;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
+.blog-card-cover{
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+
+.author_name{
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  color: #0096ff;
+  font-family: Raleway,sans-serif;
+  text-align: left;
+  margin: 16px;
+  cursor: pointer;
+
+}
+
+
+.date{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-style: normal;
+  color: black;
+  cursor: pointer;
+}
+
+.paragraph{
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 100;
+  text-align: left;
+  padding-top: 0px;
+  margin: 16px;
+  cursor: pointer;
+}
+
+.card-anchor{
+  text-decoration: none;
+  color: black;
+}
+
+.anchor-bold{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-style: bold;
+  font-weight: 600;
+  text-align: left;
+  margin: 0px;
+  text-decoration: none;
+  color: #0096ff;
+
+}
+
+.headding{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 0px;
+  margin: 0px 16px 16px 16px;
+  cursor: pointer;
+}
+
+  
+
+
+
+  

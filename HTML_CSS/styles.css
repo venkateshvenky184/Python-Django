@@ -1,0 +1,280 @@
+.background{
+    background-color: #f2f6ff;
+}
+body {
+    height: 120vh;
+    background-color: #f2f6ff;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow:  #ccc;
+    width: 100%;
+    z-index: 1;
+    padding: 1em 4.875em;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+   }
+
+header li a {
+    color:  #0084ff;
+   text-decoration: none;
+    font-size: 2em;
+    margin-top: 8px;
+    width: 120px;
+    font-weight:900px;
+}
+
+.dropbtn {
+    background-color: #f9f9f9;
+    color: blavk;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left:40px;
+    margin-top:10px;
+    width:100%;
+    box-sizing: border-box;
+    border-bottom: 4px solid transparent;
+}
+
+.dropbtn  i{
+    padding-left :4px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px;  
+    z-index:1;
+}
+
+.card-anchor{
+    text-decoration: none;
+}
+.dropdown-content a {
+    display:flex;
+    color:  black;
+    text-decoration: none;
+    display: block;
+    margin-left:80px;
+    text-align:left;
+    min-width: 250px;
+    max-height: 335px;
+    font-size: 16px;
+    line-height: 1em;
+    padding: .5em;
+    box-sizing: border-box;
+    width:200px;
+    clear:both;
+    margin-left:3.5px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left:40px;
+  text-align:left;
+ 
+}
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+.right-menu{
+ margin-top: auto;
+ padding-left:200px ;
+ display:inline-block;
+ flex-direction:row-column;
+ align-items:center;
+ margin-bottom:20px; 
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+   
+.blog{
+    min-width: 23em;
+    opacity: .6;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+    margin-top: .5em;
+    display:inline-block;
+    margin-left:400px;
+    margin:0px;
+}
+
+
+
+.button{
+    width: auto;
+    font-size: 0.75em;
+    padding: 0.5em 2em;
+    padding: 0.5em 2em;
+    margin: 0px 1em 0px 0px;
+    background: #0084ff;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    border-radius:20px;
+    height:40px;
+}
+
+.blog-card{
+    display:inline-block;
+    margin-left:100px;
+    margin-right :150px;
+    margin-top:50px;
+}
+.blog-card{
+    border : 1px solid #0046ff;
+    border-radius : 10px;
+    max-width: 19.5em;
+    min-height: 25em;
+    margin-right: 1%;
+    margin-left: 100px;
+    margin-bottom: 1em;
+    padding :5px 10px;
+}
+.blog-card-cover{
+    width:100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+} 
+
+.blog-card-blog-title{
+    font-family: 'Roboto', sans-serif;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0px 16px 16px 16px;
+    padding: 4px 10px;
+}
+.blog-card-author{
+    font-size: .9em;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 0.5;
+    color: #0096ff;
+    margin:16px;
+    text-align:left;
+ }
+.blog-card-publishdate{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+}
+.blog-description{
+    opacity: .5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: .35px;
+    text-align: left;
+    color: #000;
+    margin: 10px;
+    padding-top:2px;
+    white-space: pre-wrap;
+} 
+
+.trending_posts{
+    font-family: Raleway,sans-serif;
+    color: black;
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 600;
+    display: block;
+    margin: 14px 0px;
+    padding-left: 5px;
+    padding-top:50px;
+    letter-spacing: -.9px;
+    text-align: left;
+  }
+  
+.filter_icon{
+    margin-right: 16px;
+    width: 16px;
+  
+}
+  
+.filter-by{
+    display: block;
+    padding-top: 16px;
+    padding-left:  5.2px;
+    margin: 13.6px 0px;
+    font-family: Raleway,sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -.9px;
+    text-align: left;
+}
+  
+.category_buttons_all{
+    border: 2px solid;
+    padding: 6px 16px;
+    margin: 5px;
+    font-family: Raleway,sans-serif;
+    font: 12px;
+    background-color: #0084ff;
+    color: white;
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+    cursor: pointer;
+  
+}
+  
+.category_buttons{
+    border: 2px solid;
+    padding: 6px 16px;
+    margin: 5px;
+    font-family: Raleway,sans-serif;
+    font: 12px;
+    background-color: transparent;
+    color: #0084ff;
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.blog-container{
+    padding: 30px 50px;
+    background-color: #f2f6ff;
+    margin-top: 30px;
+}
+  
+   
+  
